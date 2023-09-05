@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Custom CSS for changing colors */
+.mdl-layout__header {
+    background-color: #8e24aa !important; /* Change the banner color to bright purple */
+}
+
+.mdl-button--colored {
+    background-color: #8e24aa !important; /* Change button colors to bright purple */
+    color: white !important; /* Change button text color to white */
+    margin-top: 10px;
+}
+
+.mdl-button--colored:hover {
+    background-color: #6a1b9a !important; /* Change button color on hover */
+}
+
+li.mdl-list__item {
+    line-height: 20px;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 16px;
+    padding-right: 3px;
+    margin-top: 0px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* Custom CSS to left-align the Movie List title and list items within the movieList element */
+#movieList {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left; /* left-align text within the movieList element */
+    max-height: 300px; /* Adjust the maximum height as needed */
+    overflow-y: auto; /* Add vertical scrollbar when content exceeds the maximum height */
+}
+
+/* Custom CSS for page background and text color */
+body {
+    background-color: black; /* Change page background to black */
+    color: white; /* Change text color to white */
+}
+
+/* Custom CSS for adding a border around the Add movie element */
+.mdl-textfield {
+    border: 2px solid #8e24aa; /* Set the border color to #8e24aa */
+    background-color: #d1d1d1; /* Set the background color to #d1d1d1 */
+    /* padding: auto; */
+}
+
+/* Custom CSS for setting the background color of Movie List and Selected Movie divs */
+.mdl-card {
+    background-color: #d1d1d1; /* Set the background color of the divs to #d1d1d1 */
+    margin-top: 16px; /* Adjust margin as needed */
+}
+
+#selectedMovie {
+    text-transform: capitalize; /* Capitalize the content of the div */
+}
+
+/* Custom CSS to change text color of the text input field */
+.mdl-textfield__input {
+    color: black; /* Set text color to black */
+}
+
+/* Custom CSS to change label text color */
+.mdl-textfield label.mdl-textfield__label {
+    color: #8e24aa; /* Set label text color to #8e24aa */
+}
+
+div.mdl-cell.mdl-cell--6-col {
+    max-width: 500px;
+  }
